@@ -137,6 +137,7 @@ class bias(PolyModelSet):
     .. [5] https://github.com/slosar/PUMANoise/blob/b17b30ec84c6e55d8/castorina.py
     .. [6] https://arxiv.org/abs/1609.05157
     .. [7] https://arxiv.org/abs/1804.09180
+    .. [8] https://arxiv.org/abs/1303.6644
 
     Examples
     --------
@@ -152,6 +153,7 @@ class bias(PolyModelSet):
         "eboss_lrg": (0.40, [1.03, 0.862, 0.131]),
         "eboss_elg": (0.85, [0.5, 0.7]),
         "HI": (1.0, [0.489, 0.460, -0.118, 0.0678, -0.0128, 0.0009]),
+        "wigglez": (0.55, [-0.01]),
     }
 
 
